@@ -5,7 +5,7 @@
     <name>Flow NBT</name>
     <groupId>com.flowpowered</groupId>
     <artifactId>flow-nbt</artifactId>
-    <version>2.0.0</version>
+    <version>2.0.2</version>
     <packaging>jar</packaging>
     <inceptionYear>2011</inceptionYear>
     <url>https://flowpowered.com/nbt</url>
@@ -159,8 +159,8 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.3</version>
                 <configuration>
-                    <source>1.7</source>
-                    <target>1.7</target>
+                    <source>16</source>
+                    <target>16</target>
                     <compilerArguments>
                         <O>-Xlint:all</O>
                         <O>-Xlint:-path</O>
@@ -209,6 +209,7 @@
                 <configuration>
                     <format>xml</format>
                     <maxmem>256m</maxmem>
+                    <check/>
                 </configuration>
             </plugin>
             <!-- Surefire test plugin -->
